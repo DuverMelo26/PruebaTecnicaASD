@@ -2,8 +2,6 @@ package com.example.pruebatecnicaasd.peliculas.data.repository
 
 import com.example.pruebatecnicaasd.core.network.ApiResponseStatus
 import com.example.pruebatecnicaasd.peliculas.data.dataSource.ApiRemoteDataSource
-import com.example.pruebatecnicaasd.peliculas.data.mapper.DetallesPeliculaMapper
-import com.example.pruebatecnicaasd.peliculas.data.mapper.PeliculasPopularesMapper
 import com.example.pruebatecnicaasd.peliculas.data.model.DetallesPeliculaDTO
 import com.example.pruebatecnicaasd.peliculas.data.model.GenerosPeliculaDTO
 import com.example.pruebatecnicaasd.peliculas.data.model.PeliculaPopularDTO
@@ -24,15 +22,10 @@ class PeliculasRemoteRepositoryTest {
 
     private var apiRemoteDataSource: ApiRemoteDataSource = mockk()
 
-    private val peliculasPopularesMapper = PeliculasPopularesMapper()
-    private val detallesPeliculaMapper = DetallesPeliculaMapper()
-
     @Before
     fun setup() {
         peliculasRemoteRepository = PeliculasRemoteRepository(
-            apiRemoteDataSource = apiRemoteDataSource,
-            peliculasPopularesMapper = peliculasPopularesMapper,
-            detallesPeliculaMapper = detallesPeliculaMapper
+            apiRemoteDataSource = apiRemoteDataSource
         )
     }
 

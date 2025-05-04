@@ -16,7 +16,7 @@
         android:theme="@style/Theme.PruebaTecnicaASD"
         tools:targetApi="31">
         <activity
-            android:name=".peliculas.presentation.view.MainActivity"
+            android:name=".peliculas.presentation.view.PeliculasActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.PruebaTecnicaASD">

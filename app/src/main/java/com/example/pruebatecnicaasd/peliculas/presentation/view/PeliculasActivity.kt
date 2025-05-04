@@ -14,7 +14,7 @@ import com.example.pruebatecnicaasd.peliculas.presentation.view.theme.PruebaTecn
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : ComponentActivity() {
+class PeliculasActivity : ComponentActivity() {
 
     private val peliculasViewModel: PeliculasViewModel by viewModels()
 

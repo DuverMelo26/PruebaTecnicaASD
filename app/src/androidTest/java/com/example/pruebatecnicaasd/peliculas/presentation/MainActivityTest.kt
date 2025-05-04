@@ -12,7 +12,7 @@ import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.swipeUp
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.pruebatecnicaasd.peliculas.presentation.view.MainActivity
+import com.example.pruebatecnicaasd.peliculas.presentation.view.PeliculasActivity
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -21,7 +21,7 @@ import org.junit.runner.RunWith
 class MainActivityTest {
 
     @get:Rule
-    val composeTestRule = createAndroidComposeRule<MainActivity>()
+    val composeTestRule = createAndroidComposeRule<PeliculasActivity>()
 
     @Test
     fun navegarPeliculaPopularesScreenToDetallesPeliculasScreen() {
