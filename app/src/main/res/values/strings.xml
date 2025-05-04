@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PruebaTecnicaASD</string>
+    <string name="title_activity_catalogo_peliculas">CatalogoPeliculasActivity</string>
+    <string name="escriba_el_nombre_de_la_pelicula">Escriba el nombre de la película</string>
+    <string name="falla_consultando_peliculas">Falla consultando más películas, intente de nuevo.</string>
+    <string name="no_fue_posible_obtener_detalles">No fue posible obtener detalles de la película, salga e intente de nuevo.</string>
+    <string name="title_activity_detalles_pelicula">DetallesPeliculaActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
